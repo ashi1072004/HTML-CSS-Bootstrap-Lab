@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./files/bootstrap.min.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <div class="btn-group">
+                    <button type="button" class="btn btn-danger">Action</button>
+                    <button type="button" class="btn btn-danger dropdown-toggle dropdown-toggle-split"
+                        data-bs-toggle="dropdown" aria-expanded="false">
+                        <span class="visually-hidden">Toggle Dropdown</span>
+                    </button>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">Action</a></li>
+                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        <li>
+                            <hr class="dropdown-divider">
+                        </li>
+                        <li><a class="dropdown-item" href="#">Separated link</a></li>
+                    </ul>
+                </div>
+                <div class="btn-group">
+                    <button type="button" class="btn btn-success">Action</button>
+                    <button type="button" class="btn btn-success dropdown-toggle dropdown-toggle-split"
+                        data-bs-toggle="dropdown" aria-expanded="false">
+                        <span class="visually-hidden">Toggle Dropdown</span>
+                    </button>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">Action</a></li>
+                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        <li>
+                            <hr class="dropdown-divider">
+                        </li>
+                        <li><a class="dropdown-item" href="#">Separated link</a></li>
+                    </ul>
+                </div>
+                <p>
+                    <a class="btn btn-primary" data-bs-toggle="collapse" href="#collapseExample" role="button"
+                        aria-expanded="false" aria-controls="collapseExample">
+                        Lorem ipsum dolor sit amet.
+                    </a>
+
+                </p>
+                <div class="collapse" id="collapseExample">
+                    <div class="card card-body">
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sunt commodi aliquid explicabo,
+                        dolorem recusandae quasi nam consequatur unde, porro totam cumque sed ducimus atque. Molestiae
+                        similique ea maiores nemo tenetur minima ipsum eum soluta recusandae voluptatum facilis possimus
+                        nobis in facere fugiat officia, corrupti praesentium consequatur! Exercitationem sequi tenetur
+                        maiores.
+                    </div>
+                </div>
+            </div>
+            <div class="col" style="min-height: 120px;">
+                <div class="dropdown">
+                    <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1"
+                        data-bs-toggle="dropdown" aria-expanded="false">
+                        Cars
+                    </button>
+                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                        <li><a class="dropdown-item" href="#">Honda</a></li>
+                        <li><a class="dropdown-item" href="#">BMW</a></li>
+                        <li><a class="dropdown-item" href="#">Mahran</a></li>
+                    </ul>
+                </div>
+                <h1 data-bs-toggle="collapse" data-bs-target="#c1" aria-expanded="false"
+                    aria-controls="collapseExample">Lorem ipsum dolor sit amet.</h1>
+                <div style="min-height: 120px;">
+                    <div class="collapse collapse-horizontal" id="c1">
+                        <div class="card card-body" style="min-width: 300px;">
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sunt commodi aliquid explicabo,
+                            dolorem recusandae quasi nam consequatur unde, porro totam cumque sed ducimus atque.
+                            Molestiae
+                            similique ea maiores nemo tenetur minima ipsum eum soluta recusandae voluptatum facilis
+                            possimus
+                            nobis in facere fugiat officia, corrupti praesentium consequatur! Exercitationem sequi
+                            tenetur
+                            maiores.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="./files/popper.min.js"></script>
+    <script src="./files/bootstrap.min.js"></script>
+</body>
+
+</html>

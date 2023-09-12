@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navigation bar</title>
+    <style>
+        .navbar{
+            width: 1200px;
+            height: 55px;
+            background-color: rgb(73, 72, 72);
+            border-radius: 30px;
+        }
+        .navbar ul{
+            overflow: auto;
+        }
+        .navbar li{
+            float: left;
+            list-style: none;
+            margin: 18px 14px;
+            
+        }
+        .navbar li a{
+            color: white;
+            text-decoration: none;
+            padding: 20px 23px;
+        }
+        .navbar li a:hover{
+            background-color: rgb(104, 98, 98);
+        }
+        .search{
+            float: right;
+            padding: 12px 65px;
+        }
+        .search input{
+            font-style: italic;
+            border: 2px solid black;
+            padding: 6px 4px;
+            width: 187px;
+        }
+        .image{
+            /* margin-top: 50px; */
+            height: 500px;
+            width: 50px;
+            background-color: blue;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Contact Us</a></li>
+                <div class="search">
+                    <input type="text" name="search" id="search" placeholder="Search...">
+                </div>
+            </ul>
+        </nav>
+    </header>
+    <div class="image">
+        <img src="wapexp/WhatsApp Image 2021-01-08 at 23.58.39.jpeg" alt="">
+    </div>
+</body>
+</html>

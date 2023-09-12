@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>List Styles, Entities, Semantic Tags</title>
+    <style>
+        h2, h3, p {
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            border: 2px solid green;
+            display: inline-block;
+        }
+        ul.liststyle {
+            list-style-type: none;
+            padding: 0;
+            border: 1px solid #ddd;
+        }
+
+        ul.liststyle li {
+            padding: 8px 16px;
+            border-bottom: 1px solid #ddd;
+        }
+
+        ul.liststyle li:last-child {
+            border-bottom: none
+        }
+    </style>
+</head>
+    <body>
+        <h2>HTML Tutorial</h2>
+        <ul class="liststyle">
+            <li>Coffee</li>
+            <li>Tea</li>
+            <li>Coca Cola</li>
+        </ul>
+        <h3>HTML Entities</h3>
+        <div class="container">
+            <p>Some reserved characters in VSCode can't be written directly, so they are written using HTML Entities. <br>
+                Like: &lt;p&gt; and para &nbsp;graph.<br>
+                Also an empty character: &#8203;.
+            </p>
+        </div>
+        <hr>
+        <h3>Semantic Tags</h3>
+        <div>
+            <details>
+                <summary>I have keys but no doors. I have space but no room. You can enter but can't leave. Who am I?
+                </summary>
+                A keyboard.
+            </details>
+            <h4>Web development Course</h4>
+            <details>
+                <ul>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>Bootstrap</li>
+                    <li>Javascript</li>
+                    <li>NodeJS</li>
+                    <li>PHP</li>
+                </ul>
+            </details>
+        </div>
+    </body>
+</html>

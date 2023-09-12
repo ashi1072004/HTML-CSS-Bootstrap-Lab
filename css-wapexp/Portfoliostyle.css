@@ -1,0 +1,309 @@
+@charset "utf-8";
+/* CSS Document */
+html {
+    scroll-behavior: smooth;
+}
+*{
+	margin: 0px;
+	padding: 0px;
+}
+.main{
+	width: 100%;
+	height: auto;
+	background-color: #f5f5f5;
+}
+/* ---------------  navbar start  ---------------*/
+.navbar{
+	width: 100%;
+	background-color: black;
+	height: auto;
+	position: fixed;
+}
+.nav{
+	width: 90%;
+/*	background-color: black;*/
+	height: 70px;
+	margin: 0px auto;
+	box-sizing: border-box;
+}
+.logo{
+	float: left;
+	/* width: 200px; */
+	color: white;
+	padding-top: 17px;
+	/* background-color: steelblue; */
+}
+.inner{
+	float: right;
+	width: 630px;
+	/* background-color: blue; */
+}
+.inner li{
+	list-style-type: none;
+}
+.inner li a{
+	text-decoration: none;
+	float: left;
+	color: white;
+	text-transform: uppercase;
+	font-size: 16px;
+	padding: 26px 20px;
+}
+.inner li a:hover{
+	background-color: white;
+	color: black;
+}
+/* ---------------  navbar end  ---------------*/
+/* ---------------  home start  ---------------*/
+.home{
+	background-image: url("./pics/post-3.jpg");
+	background-repeat: no-repeat;
+	height: 100vh;
+	background-size: cover;
+	color: white;
+	font-size: 40px;
+	text-align: center;
+	padding: 280px;
+	text-transform: capitalize;
+	box-sizing: border-box;
+}
+/* ---------------  home end  ---------------*/
+/* ---------------  about start  ---------------*/
+.about{
+	width: 90%;
+	height: 600px;
+	background-color: white;
+	margin: 40px auto;
+	box-shadow: 10px -10px 5px 0px rgba(0,0,0,0.1);
+}
+.inabout1{
+	float: left;
+	width: 50%;
+	font-size: 20px;
+	padding: 30px;
+	box-sizing: border-box;
+	line-height: 36px;
+}
+.prodetail{
+	width: 70%;
+	float: right;
+	margin-top: -150px;
+	/* background-color: blueviolet; */
+}
+.propic{
+	width: 150px;
+	height: 150px;
+	/* background-color: blue; */
+}
+.inprofil2 h2{
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+.inabout2{
+	float: right;
+	width: 50%;
+	padding: 30px;
+	font-size: 20px;
+	text-align: justify;
+	box-sizing: border-box;
+}
+.inabout2 p{
+	padding-top: 30px;
+}
+/* ---------------  about end  ---------------*/
+/* ---------------  services start  ---------------*/
+.service{
+	width: 90%;
+	height: 750px;
+	margin: 35px auto;
+	/* background-color: tomato; */
+}
+.service h1{
+	font-size: 60px;
+	text-align: center;
+}
+.serbox{
+	background-color: white;
+	width: 350px;
+	height: 300px;
+	margin-left: 30px;
+	margin-top: 30px;
+	padding: 10px;
+	border-radius: 20px;
+	display: inline-block;
+	box-sizing: border-box;
+}
+.serbox i{
+	font-size: 40px;
+	border: 10px solid blue;
+	border-radius: 70px;
+	padding: 30px;
+	margin: 20px 0px;
+}
+.serbox h2{
+	font-size: 25px;
+	text-transform: uppercase;
+	padding-bottom: 15px;
+}
+.serbox i:hover{
+	border: 10px solid #CDE1F8;
+	color: white;
+	background-color: blue;
+}
+/* ---------------  services end  ---------------*/
+.info{
+	width: 100%;
+	height: 400px;
+	background-color: #4A9EFC;
+}
+.ininfo{
+	width: 1160px;
+	height: 400px;
+	margin: 0px auto;
+}
+.infobox{
+	/* background-color: white; */
+	color: white;
+	width: 280px;
+	height: 400px;
+	padding-left: 30px;
+	display: inline-block;
+	box-sizing: border-box;
+}
+.infobox i{
+	font-size: 25px;
+	border: 10px solid #CDE1F8;
+	border-radius: 70px;
+	padding: 30px;
+	margin-top: 70px;
+}
+.infobox p{
+	margin-top: 30px;
+}
+/* ---------------  work start  ---------------*/
+.work{
+	width: 85%;
+	min-height: 800px;
+	margin: 50px auto;
+	/* background-color: tomato; */
+}
+.work h1{
+	font-size: 60px;
+	text-align: center;
+}
+.wbox{
+	background-color: white;
+	width: 350px;
+	height: 350px;
+	margin-left: 15px;
+	margin-top: 50px;
+	padding: 15px;
+	border-radius: 20px;
+	display: inline-block;
+	box-sizing: border-box;
+}
+.wbox p{
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	font-size: 20px;
+	text-align: left;
+	padding: 20px 0px;
+}
+/* ---------------  work end  ---------------*/
+.detailb{
+	min-height: 500px;
+    background-color: #4A9EFC;
+	padding-top: 150px;
+}
+.detailb p{
+	color: white;
+	text-align: center;
+	padding-top: 30px;
+}
+/* ---------------  blog start  ---------------*/
+.blog{
+	width: 87%;
+	min-height: 600px;
+	margin: 50px auto;
+	/* background-color: tomato; */
+}
+.blog h1{
+	font-size: 60px;
+	text-align: center;
+}
+.blogbox{
+	background-color: white;
+	width: 370px;
+	height: 450px;
+	margin-left: 15px;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	padding: 15px;
+	border-radius: 20px;
+	display: inline-block;
+	box-sizing: border-box;
+}
+.blogbox p{
+	font-size: 18px;
+	text-align: left;
+}
+/* ---------------  blog end  ---------------*/
+/* ---------------  contact start  ---------------*/
+#contactus{
+	height: 650px;
+	background-color: #4A9EFC;
+	padding-top: 100px;
+}
+.contact{
+	width: 90%;
+	height: 600px;
+	margin: 0px auto;
+	background-color: white;
+}
+.con1{
+	width: 50%;
+	height: 600px;
+	padding: 30px;
+	box-sizing: border-box;
+	/* background-color: springgreen; */
+}
+.contact h1{
+	padding: 25px 0px;
+}
+.in1{
+	width: 100%;
+	padding: 15px;
+	outline: none;
+	box-sizing: border-box;
+}
+.in2{
+	width: 100%;
+	outline: none;
+	padding: 15px;
+	margin-top: 20px;
+	box-sizing: border-box;
+}
+#btn{
+	margin-top: 30px;
+	color: white;
+	background-color: #4A9EFC;
+	padding: 15px 30px;
+	border: none;
+	border-radius: 30px;
+	font-size: 17px;
+}
+.con2{
+	width: 50%;
+	height: 600px;
+	float: right;
+	margin-top: -600px;
+	padding: 30px;
+	box-sizing: border-box;
+	/* background-color: teal; */
+}
+.con2 i{
+	color: blue;
+}
+.con2 span{
+	margin-left: 10px;
+}
+/* ---------------  contact end  ---------------*/

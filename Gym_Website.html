@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gym Website</title>
+    <link rel="icon" type="image/png" href="images/weight-1399281_640.png">
+    <link href="https://fonts.googleapis.com/css?family=Baloo+Bhai&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            box-sizing: border-box;
+        }
+
+        body {
+            background-image: url('./images/dumbbell-940375_1920.jpg');
+            height: 100vh;
+            background-repeat: no-repeat;
+            background-position: center;
+        }
+
+        header {
+            background-color: black;
+            height: 85px;
+        }
+
+        .left {
+            /* border: 2px solid green; */
+            display: inline-block;
+            position: absolute;
+            left: 60px;
+            text-align: center;
+            /* top: 10px; */
+        }
+
+        .left img {
+            filter: invert(100%);
+            width: 70px;
+            height: 50px;
+        }
+
+        .left div {
+            font-family: 'Baloo Bhai', cursive;
+            font-style: italic;
+            color: white;
+        }
+
+        .mid {
+            /* border: 2px solid green; */
+            display: block;
+            width: 45%;
+            height: 85px;
+            margin: 0px auto;
+        }
+
+        .right {
+            /* border: 2px solid green; */
+            display: inline-block;
+            position: absolute;
+            right: 60px;
+            top: 26px;
+        }
+        .navbar{
+            display: inline-block;
+        }
+        .navbar li {
+            display: inline-block;
+            font-size: 20px;
+            margin-top: 32px;
+        }
+        
+        .navbar li a {
+            /* border: 2px solid gold; */
+            text-decoration: none;
+            color: white;
+            padding: 30px 23px;
+        }
+        
+        .navbar li a:hover {
+            outline: 5px solid slategray;
+            color: slategray;
+        }
+
+        .navbar a.active {
+            color: slategray;
+        }
+
+        #search {
+            width: 230px;
+            padding: 7px 5px;
+            outline: none;
+        }
+
+        .container {
+            border: 2px solid white;
+            background-color: rgba(255, 255, 255, 0.3);
+            backdrop-filter: blur(30px);
+            border-radius: 25px;
+            width: 400px;
+            margin: 40px 80px;
+            padding: 20px 15px;
+            text-align: center;
+            /* color: rgb(34, 34, 34); */
+        }
+
+        .form-group input {
+            width: 84%;
+            font-size: 17px;
+            margin: 7px auto;
+            padding: 8px;
+            outline: none;
+            border: none;
+            border-radius: 5px;
+        }
+
+        .radio input[type=radio] {
+            width: unset;
+        }
+
+        .radio {
+            text-align: left;
+            margin-left: 40px;
+            font-size: 18px;
+        }
+
+        .container h1 {
+            margin-bottom: 10px;
+        }
+
+        .container .btn {
+            width: 120px;
+            font-size: 18px;
+            margin: 15px 0px auto;
+            padding: 7px;
+            background-color: rgb(10, 10, 10);
+            color: white;
+            border: none;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="left">
+            <img src="./images/weight-1399281_640.png" alt="Logo">
+            <div>Fitness Gym</div>
+        </div>
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Fitness Calculator</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+        </div>
+        <div class="right">
+            <input type="search" name="" id="search" placeholder="Search...">
+        </div>
+    </header>
+    <main>
+        <div class="container">
+            <h1>Join the best Gym of Faisalabad Now!</h1>
+            <form>
+                <div class="form-group">
+                    <input type="text" placeholder="Enter Your Name">
+                </div>
+                <div class="form-group">
+                    <input type="number" placeholder="Enter Your Age">
+                </div>
+                <div class="form-group radio">
+                    <span>Gender: </span>
+                    <input type="radio" id="male" name="gender">
+                    <label for="male">Male</label>
+                    <input type="radio" id="female" name="gender">
+                    <label for="female">Female</label>
+                </div>
+                <div class="form-group">
+                    <input type="text" placeholder="Enter Your Locality">
+                </div>
+                <div class="form-group">
+                    <input type="email" placeholder="Enter Your Email">
+                </div>
+                <div class="form-group">
+                    <input type="tel" placeholder="Enter Your Phone no.">
+                </div>
+                <button class="btn">Submit</button>
+            </form>
+        </div>
+    </main>
+</body>
+
+</html>

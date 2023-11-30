@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nested Tables</title>
+    <style>
+        table,
+        th,
+        td {
+            border: 1px solid black;
+            /* border-collapse: collapse; */
+        }
+
+        th,
+        td {
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <table cellspacing="0" style="display: inline-block;">
+        <tr>
+            <th rowspan="5" style="width:150px; height:150px;">Company</th>
+            <th style="width:400px; height:75px;">Row 1</th>
+        </tr>
+        <tr>
+            <th style="width:400px; height:75px;">Row 2</th>
+            <!-- <th>Row 6</th> -->
+        </tr>
+        <table cellspacing="0" style="display: inline-block;">
+            <tr>
+                <th style="height:50px;">Row 4</th>
+            </tr>
+            <tr>
+                <th style="height:46px;">Row 5</th>
+            </tr>
+            <tr>
+                <th style="height:50px;">Row 6</th>
+            </tr>
+        </table>
+    </table>
+</body>
+
+</html>
